@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* This enables the “dark” variant when the .dark class is present on html/body */
+@custom-variant dark (&:where(.dark, .dark *));
